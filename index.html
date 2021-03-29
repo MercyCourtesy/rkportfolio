@@ -4,51 +4,121 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="css/style.css">
+   
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <main>
       <!-- ***********************  ABOUT / PROFILE  *********************** -->
       <header>
-        <h1 class="example">Rahma Khalif</h1>
-        <img src="images\IMG_1335.jpeg" style="border-radius:50%" c alt="Photo of Rahma">
-        <h2 class="example example2">Application Development Manager</h2>
-        <!-- Dropdown Bar -->
-        <div class="dropdown">
-          <button class="dropbtn"><small>Navigate to my other pages</small></button>
-            <div class="dropdown-content">
-              <a href="./Interest.html">About Moi</a>
-              <a href="./Contact_form.html">Contact Me</a>
-              <a href="https://meet.jit.si/UnfairAccountsCoachSmoothly">Book an appointment</a>
-            </div>
+         <!-- Dropdown Bar -->
+          <div class="dropdown">
+            <button class="dropbtn"><small>Navigate to my other pages</small></button>
+              <div class="dropdown-content">
+                <a href="./Interest.html">About Moi</a>
+                <a href="./Contact_form.html">Contact Me</a>
+                <a href="https://meet.jit.si/UnfairAccountsCoachSmoothly">Book an appointment</a>
+              </div>
+          </div>
+          <div class="content-wrap">
+          <h1 class="example2">Rahma Khalif🧿</h1>
+            <h1  dir="rtl" style="font-size:bold">رحمة خليف </h1>
+            <h2>Frontend Developer</h2>
+              <!-- <h1 class="example">Front-end Developer</h1> -->
+          <img id="profile" src="images\IMG_1335.jpeg" style="border-radius:60%" alt="Photo of Rahma">
+      
+              <!-- <h1 class="example2">Rahma Khalif</h1> -->
+          <p class="intro-bout-me"> 
+            Currently, coming from a <em>self-study</em> background of individual learning through previous non-profit boot camps such as Generation USA and an experimental bootcamp cohort I am currently a part of a self-teaching bootcamp for East African and Black youth. I currently hold a W3 certification of Javascript, and am immersing myself in the various languages that relate to DevOps such as Java, SQL, Java EE, Javascript, Angular and more. Since, then I've been building my CV through practice problems, and currently investing full-time in learning technology that will land me my first Application Development Manager, and DevOps role.</p>
         </div>
-        <p>Greetings all!
-          Who have stumbled upon my page or intentionally clicked on it.
-          I am a customer service and web development specialist currently seeking an employment opportunity.
-          I am a young professional experienced in a multitude of roles, eager to learn and capable of adapting in a variety of different environments. My vast experience with Information Technology at both the customer facing and technical side of things makes me an ideal candidate.
-          When I am not learning or working, which I always am. I like to give back to those in my community, and be a mouth piece for other Black Muslim woman of color. Mentorship is so important, and it’s important that we lend a helping hand for fellow women in STEM.</p>
-       
       </header>
 
       <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
-      <section class="container">
-        <h2>Featured Projects</h2>
-        <p>Optional paragraph for the Projects summary. Delete if not being used.</p>
-
-        <!-- Copy the whole <section> block to add more projects. -->
-        <section class="projects">
-          <h3>Project Name</h3>
-          <p>Check out Projects on Github</p>
-          <a href="https://github.com/MercyCourtesy" target="_blank">View project / case study</a>
-        </section>
-        <!-- End of Project block. -->
-      </section>
-
-      <!-- ***********************  WORK EXPERIENCE  *********************** -->
-   
+      <div class="content-wrap">
+          <section class="container">
+            <!-- <h2>Featured Projects</h2> -->
+            <div class="container">
+           <!-- Quote Generator -->
+                <div style="float:right" class="quote-box">
+                  <button style="flex-wrap: wrap;margin-bottom: 1.5em;" id="btn">Inspiration for your day</button>
+            <textarea id ="quote" placeholder="Remember, be nice!" cols="50" rows="07">Quote goes here...</textarea>
           
+            <p id="author">Author</p>
+              </div>
+            <!-- <button style="float:right;" id="btn">Inspiration for your day</button> -->
+              </div>
+       <!-- Quote Generator -->
+            <!-- Copy the whole <section> block to add more projects. -->
+            <section class="projects">
+              <h2>Project Name</h2>
+              <p>Check out Projects on Github</p>
+              <a href="https://github.com/MercyCourtesy" target="_blank">My GitHub Repository: MercyCourtesy</a>
+            </section>
+            <!-- End of Project block. -->
+          </section>
+    </div>
+      <!-- ***********************  EDUCATIONAL EXPERIENCE  *********************** -->
+      <section class="education">
+        <div class="content-wrap divider">
+        <h2 class="example"><bold>Education</bold></h2>
+        <p>See my complete work history on <a href="https://www.linkedin.com/in/rahma-khalif/">LinkedIn</a>.</p>
+
+        <!-- Job 1 -->
+        <section class="job-item">
+          <div class="job-details">
+            <h3>Web For Purpose</h3>
+            <p><i>Front-end Web Development</i></p>
+            <p>March 2021-Present</p> 
+          </div>
+          <div class="job-summary">
+          <p><ul><li>A two phase program that exposes at-promise youth to a career in web development. In partnership with Bridging Cultural Gaps, we aim to spur an interest in a high-demand and foundational skillset and offer students an opportunity to give back to their communities. Phase one includes a web development course, regular mentorship, and career readiness workshops. In phase 2, students will put these skills to the test by designing a website for a local business.</li> </ul></p>
+        </div>
+        </section>
+
+        <!-- Job 2 -->
+        <section class="job-item">
+          <div class="job-details">
+            <h3>Per Scholas</h3>
+            <p><i>Application Development</i></p>
+            <p>February 2021-Present</p>
+          </div>
+         <div class="job-summary">
+            <p><ul><li>Gain hands-on Software Application Development experience through the fundamentals of computing, relational databases, front end development, programming basics, advanced programming, frameworks and exposure in cloud and DevOps.</li></ul></p>
+         </div>
+          
+        </section>
+
+        <!-- Job 3 -->
+          <section class="job-item">
+            <div class="job-details"> <h3>Generation USA</h3>
+              <p><i>Junior Web Developer Training </i></p>
+              <p>November 2021-Present</p>
+              </div>
+          <div class="job-summary">
+            <p><ul><li>Engaged in an intensive youth training program designed to prepare participants for a position in the IT industry by learning about coding, programming, professionalism, persistence, and the essential behavioral skills and mindsets to be successful on the job</li></ul></p>
+          </div>
+            <!-- Job 4 -->
+            
+          </section>
+          <section class="job-item">
+            <div class="job-details"> <h3>Year Up / Northern Virginia Community College</h3>
+              <p><i>Cybersecurity Training, Associate of Science </i></p>
+              <p>February 2018 –June 2020</p>
+              </div>
+          <div class="job-summary">
+            <p><ul><li>Graduated with Associate of Science Spring'19</li>
+              <li>Engaged in an intensive youth training program designed to prepare participants for a position in the IT industry by learning about coding, programming, professionalism, persistence, and the essential behavioral skills and mindsets to be successful on the job</li>
+            </ul></p>
+          </div>
+            <!-- Job 4 -->
+            
+          </section>
+      </section>
+                   
+          </div>
+                
         <!-- Copy this whole <section> block to add more jobs. -->
        
 
@@ -56,10 +126,20 @@
   
       <!-- *****************  CONTACT INFO / SOCIAL MEDIA  ***************** -->
       <footer>
-        
+        <div class="content-wrap">
+          <h2 class="example">Let's Keep in Touch!</h2>
+          <ul class="contact-list";>
+            <li><a href="rahma.awais.khalif@gmail.com"><b>rahma.awais.khalif@gmail.com</b></a></li>
+            <li><a href="https://app.slack.com/client/T01RN00M63S/C01R4A0S4LC" target="_blank"><b>Web For Purpose</b></a></li>
+            <li><a href=""><b>Clubhouse: @calafia</b></a></li>
+            <li><a href="https://www.linkedin.com/in/rahma-k-0414b617b/" target="_blank"><b>LinkedIn</b></a></li>
+            <li><a href="https://citrusymystery.tumblr.com/" target="_blank"><b>Tumblr</b></a></li>
+          </ul>
+        </div>
 
       
       </footer>
     </main>
+    <script src="main.js"></script>
   </body>
 </html>

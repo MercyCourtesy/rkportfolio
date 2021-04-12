@@ -35,11 +35,13 @@ margin-top:0.8px;}
 padding-left: 0.5em;padding-bottom:2em;margin-left:10px;
 }
 body 
-{ background-image: url(../images/flower-teapot.jpg);
+{ background-image: url(../images/tray.jpg);
   
   background-size:cover;
+  height: 0.4em;
+  background-repeat: no-repeat;
  
-  background-color:#df3257; color:black; 
+  color:black; 
  line-height: 1.5;
  margin:0;
  padding:0;
@@ -60,10 +62,10 @@ body
 font-style:italic;
 } */
 .education {
-  background-image: url(../images/bg.jpg);
+  background-image: url(../images/paper_bckground.jpg);
   
   background-size:cover;
-  background-position:top-right;
+  background-position:bottom;
 }
 h3 ~p{
   margin: 0;
@@ -89,12 +91,15 @@ h3 ~p{
 
 /*Contact Info*/
 footer{
-  background-image: url(../images/flower-teapot.jpg);
+  background-image: url(../images/spring.jpg);
     text-align:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    
 }
 /* Dropdown Button */
 .dropbtn {
-    background-color:rgb(226, 150, 190);
+    background-color:rgb(243, 119, 166);
     color:  #f1f1f1;
     padding: 16px;
     font-size: 16px;
@@ -187,11 +192,17 @@ button:focus {
    display:flex;
    justify-content: left;
    align-items: left;
-   font-family:'Redressed', cursive;
+   font-family:"Century Gothic", sans-serif;
    font-size: 1.0em;
-   text-transform: uppercase;
-   font-weight:bold;
+   /* text-transform: uppercase; */
+   font-weight:bold; 
 
+}
+#author {
+  font-family:"Century Gothic", sans-serif;
+  font-size: 1.0em;
+  text-transform: uppercase;
+  font-weight:bolder;
 }
 
   /* Responsive Styles */
